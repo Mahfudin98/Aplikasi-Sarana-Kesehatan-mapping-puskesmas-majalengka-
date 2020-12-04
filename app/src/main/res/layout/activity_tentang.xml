@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".tentang"
+    android:background="@drawable/home2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Aplikasi"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:layout_width="379dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Aplikasi ini versi 1.0 menggunakan Android studio"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:layout_gravity="center"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Pembuat Aplikasi"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:layout_width="379dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Aplikasi ini dibuat oleh Dani Irfan Maulana, NPM : 16.14.1.0030 "
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:layout_gravity="center"
+        android:textStyle="bold"/>
+
+</LinearLayout>
